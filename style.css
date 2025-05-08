@@ -93,7 +93,7 @@ div.pink{
     /* height: 100px; */
     /* width: 10px; */
     background-color: black;
-    /* border-radius: 10000px; */
+    border-radius: 10px;
 }
 /* .div-food{ */
     /* background-color: blue; */
@@ -111,6 +111,9 @@ a.my-link{
 
 div.burn{
     background-color: white;
+    text-align: center;
+    width: 20px;
+    height: 12px;
 }
 
 div.takeaway{
@@ -142,13 +145,155 @@ div.blue{
     border: pink;
     padding: 10px 10px;
     border-radius: 0 25px 25px 0;
-    cursor: pointer;
+    /* cursor: pointer; */
     transition: 0.3s;
 }
 .search-button:hover{
     background-color: rgb(249, 215, 209);
+    text-align: right;
 }
 .peak a{
-    background-color: yellow;
+    background-color: red;
+    font-weight: bold;
+}
+div.take{
+    font-size: x-large;
+}
+
+table, th, td{
+    border: 1px, solid gainsboro;
+    padding: 5px;
+}
+.video-container { 
+    width: 20%;
+    max-width: 20px; 
+    border: 2px solid #ccc;
+    border-radius: 10px; 
+    overflow: hidden; 
+    background-color: red; 
+ }
+
+/* video {
+    width: 10%; 
+    height: 10px;
+} */
+.video-background {
+    position: relative; /* Ensure we can position things inside it */
+    width: 100%; /* Full width */
+    height: 580px; /* Fixed height for the video */
+    overflow: hidden; /* Hide anything overflowing */
+}
+
+/* Video element styles */
+.video-background video {
+    width: 100%; /* Full width of the container */
+    height: 100%; /* Full height of the container */
+    object-fit: cover; /* Ensure the video covers the entire container */
+}
+
+.video-link {
+    position: absolute; /* Position the anchor on top of the video */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block; /* Make the anchor take up the full space */
+    z-index: 1; /* Ensure the link is above the video */
+    text-decoration: none; /* Remove underline from the link */
+}
+div.takeme{
+    display: flex;
+    text-align:end;
+}
+div.bat{
+    display: flex;
+}
+div.belong{
+    display: flex;
+    border-radius: 90px;
+}
+div.desert{
+    display: flex;
+    text-align: center;
+}
+div.become{
+    display: flex;
+}
+header{
+    background-color:rgb(249, 215, 209);
+    text-align: center;
+    /* padding: 20px; */
+    color: black;
+}
+.order-form{
+    background-color:rgb(249, 215, 209);
+    padding: 90px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 30px;
+    /* box-shadow: 0 4px 8px rgb(0,0,0,0.2); */
+}
+input, select, button{
+    padding: 10px;
+    margin: 10px;
+    width: 280px;
+    border: 1px solid brown;
+}
+button{
+    background-color: black;
+    color:white;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    background-color: pink;
+}
+.confirmation{
+    margin-top: 20px;
+    color: blue;
+    font-weight: bold;
+}
+.payment-container{
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 rgb(0,0,0,0.1);
+    width: auto;
+    text-align: center;
+}
+.payment-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+form label{
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+form input{
+    width: 100px;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+button{
+    margin: 20px;
+    width: 100px;
+    padding: 10px;
+    background-color: #4CAF50;
+    border: none;
+    color: red;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #4CAF50;
+}
+.hidden{
+    display: none;
+}
+#confirmation{
+    margin-top: 20px;
+    text-align: center;
+    color: green;
     font-weight: bold;
 }
